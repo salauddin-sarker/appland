@@ -832,10 +832,14 @@ p.facipara {
 .analytics-content {
     padding-top: 146px;
 }
-.analytics-para p{
+.analytics-para p {
     color: #585e68;
     font-size: 18px;
     line-height: 32px;
+    padding-right: 61px;
+}
+.analytics-para2 {
+    padding-right: 90px;
 }
 .analytics-image img{
     width: auto;
