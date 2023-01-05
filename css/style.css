@@ -747,6 +747,7 @@ img{
     background-color: transparent;
     color: var(--white);
 }
+
 .pow-features-head {
     padding-right: 167px;
     padding-top: 95px;
@@ -802,8 +803,28 @@ p.subtitle {
     font-size: 15px;
     line-height: 28px;
 }
+.powbtn a {
+    background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: var(--white);
+    font-size: 16px;
+    margin-top: 23px;
+    display: block;
+    outline: 1px solid transparent;
+    padding: 17px 53px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+.powbtn a:hover{
+    border: 1px solid var(--theme);
+    background: transparent;
+    color: var(--footbg);
+}
 /* ==========facilities-area ========== */
-.facilities-area{}
+.facilities-area {
+    margin: 44px 0 0 0;
+}
 .faci-content{
     background-color: #4c0dd4;
     padding: 84px 40px;
