@@ -11,3 +11,5 @@ $('.brand').slick({
     slidesToScroll: 2
   })
   
+  // play-video
+  

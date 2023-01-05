@@ -730,7 +730,7 @@ img{
     border-radius: 30px;
     background-color: var(--white);
     color: var(--theme);
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 700;
     display: inline-block;
     margin-right: 20px;
@@ -817,10 +817,73 @@ p.subtitle {
     transition: all .3s;
 }
 .powbtn a:hover{
-    border: 1px solid var(--theme);
-    background: transparent;
-    color: var(--footbg);
+    background: linear-gradient(to right,#9700ff    0%, #4b0dd3 100%);
 }
+
+/* ==========disover-area ========== */
+/* ==========pricing-area ========== */
+.pricing-area .powtitle::before{
+    bottom: -10px;
+    left: 50%;
+}
+.pricing-area .sub-heading {
+    color: #585e68;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 32px 366px 70px 366px;
+}
+.pricing-area .powtitle::after{
+    bottom: -10px;
+    left: 46%;
+}
+.pricing-content{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all .3s;
+    text-align: center;
+}
+.pricing-content:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.price-model{
+    color: #1a264a;
+    font-size: 18px;
+    line-height: 60px;
+}
+.price-highlight {
+    background-color: #faf5ff;
+    margin-bottom: 51px;
+    padding: 22px 0 35px 0;
+}
+.price-highlight sup{
+    color: #6509e2;
+    font-size: 24px;
+    line-height: 40px;
+}
+.price-highlight .model-rate{
+    color: #6509e2;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.price-highlight .limit-time{
+    color: #6509e2;
+    font-size: 16px;
+    line-height: 40px;
+}
+.user-limit,.elementlimit,.support-limit{
+    color: #585e68;
+    font-size: 18px;
+}
+.elementlimit{}
+.support-limit{}
+.try{
+    color: #d4d4d4;
+    text-transform: uppercase;
+}
+.pricing-btn{}
+.pricing-btn a{}
+.pricing-btn button{}
 /* ==========facilities-area ========== */
 .facilities-area {
     margin: 44px 0 0 0;
@@ -1178,19 +1241,31 @@ p.facipara {
     color: var(--mata);
     padding: 28px;
 }
-.contact-message-area form input,
-.contact-message-area form textarea{
+.contact-message-area form input{
     border-radius: 3px;
     background-color: #f8f8fc;
-    border: 1px solid #dfdff9;
+    border: 1px solid #f0f0fb;
     margin-bottom: 26px;
     width: 100%;
 }
-.contact-message-area form textarea{
+.contact-message-area form textarea {
     height: 200px;
+    background-color: #f8f8fc !important;
+    margin-bottom: 26px;
+    width: 100%;
+    outline: 0;
+    border: none;
 }
-.phone-boxshadow input{
+.contact-message-area form input:focus{
     background-color: white;
+    border: none;
+    outline: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact-message-area form textarea:focus{
+    background-color: white;
+    border: none;
+    outline: none;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .contact-message-area .cheked-valid input{
