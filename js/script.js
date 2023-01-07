@@ -13,3 +13,4 @@ $('.brand').slick({
   
   // play-video
   
+  // pricing-tabs

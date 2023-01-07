@@ -123,6 +123,9 @@ img{
     background-image: url("../images/shape/shape01.png");
     background-repeat: no-repeat;
 }
+.banner-area.index2{
+        padding-bottom: 219px;
+}
 .banner-content .banner-heading {
     color: var(--dark);
     font-size: 60px;
@@ -822,6 +825,8 @@ p.subtitle {
 
 /* ==========disover-area ========== */
 /* ==========pricing-area ========== */
+
+
 .pricing-area .powtitle::before{
     bottom: -10px;
     left: 50%;
@@ -836,10 +841,12 @@ p.subtitle {
     bottom: -10px;
     left: 46%;
 }
-.pricing-content{
+.pricing-content {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 21px 0 44px 0;
     transition: all .3s;
     text-align: center;
+    margin-bottom: 120px;
 }
 .pricing-content:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -852,7 +859,7 @@ p.subtitle {
 }
 .price-highlight {
     background-color: #faf5ff;
-    margin-bottom: 51px;
+    margin-bottom: 48px;
     padding: 22px 0 35px 0;
 }
 .price-highlight sup{
@@ -874,16 +881,58 @@ p.subtitle {
 .user-limit,.elementlimit,.support-limit{
     color: #585e68;
     font-size: 18px;
+    text-transform: capitalize;
 }
-.elementlimit{}
-.support-limit{}
-.try{
+.try {
     color: #d4d4d4;
+    margin-bottom: 58px;
     text-transform: uppercase;
 }
-.pricing-btn{}
-.pricing-btn a{}
-.pricing-btn button{}
+.pricing-btn button {
+    border-radius: 40px;
+    border: 1px solid rebeccapurple;
+    background: transparent;
+    color: var(--dark);
+    font-size: 14px;
+    line-height: 40px;
+    padding: 9px 75px;
+    transition: all .3s;
+}
+.pricing-content:hover .pricing-btn button{
+    background: linear-gradient(to right, #4b0dd3 0%, #9700ff 100%);
+    color: var(--white);
+}
+/* ==========home3-blog  ========== */
+.home3-blog-title{
+    color: #1a264a;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.home3 .blog-image {
+    padding-bottom: 30px;
+}
+.home3 .blog-pdetails p {
+    padding-top: 5px;
+}
+.home3 .red-more-btn {
+    margin-top: -10px;
+}
+section.blog-area.home3.pricing-area {
+    padding: 25px 0 10px 0;
+}
+.app-area.home3{
+    background-image: url(../images/banner/home3appbg.png);
+}
+.home3 .app-btn button{
+    background-color: var(--white);
+}
+.home3 .app-btn button a {
+    color: var(--dark);
+}.home3 .app-btn button:hover{
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
 /* ==========facilities-area ========== */
 .facilities-area {
     margin: 44px 0 0 0;
