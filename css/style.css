@@ -824,6 +824,42 @@ p.subtitle {
 }
 
 /* ==========disover-area ========== */
+.o-video {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    padding-top: 56.25%; /* 9 / 16 * 100 */
+  }
+  .o-video > iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .vedio-right-content{
+    position: relative;
+    margin-top: 102px;
+  }
+  .vedio-right-content .analytics-para p {
+    padding-right: 165px;
+}
+.vedio-right-content .analytics-content {
+    background-color: var(--white);
+    left: -232px;
+    position: absolute;
+    padding-top: 112px;
+    padding-left: 82px;
+}
+.play-the-btn{
+    padding-bottom: 136px;
+}
+.play-the-btn  a{
+    color: var(--dark);
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--dark);
+}
 /* ==========pricing-area ========== */
 
 
@@ -932,6 +968,52 @@ section.blog-area.home3.pricing-area {
 }.home3 .app-btn button:hover{
     background-color: transparent;
     border: 1px solid var(--white);
+}
+
+/* ==========newsletter-area ========== */
+.newsletter-area{
+    background-image: url(../images/banner/Home3newsletterbg.png);
+    padding-bottom: 120px;
+}
+.newsletter-area .section-title {
+    margin-bottom: 71px;
+    padding-top: 28px;
+}
+.newsletter-input{
+    text-align: center;
+    position: relative;
+}
+.newsletter-input input {
+    border: 1px solid var(--white);
+    border-radius: 40px;
+    background-color: transparent;
+    min-width: 500px;
+    padding: 17px 26px;
+}
+
+.newsletter-input input::placeholder{
+    color: var(--white);
+
+}
+.newsletter-input .submit-btn {
+    background-color: var(--white);
+    color: var(--theme);
+    font-weight: bold;
+    margin-left: -74px;
+    min-width: 200px !important;
+    padding: 17px 26px;
+    text-transform: uppercase;
+}
+.newsletter-area .powtitle::before {
+    background: linear-gradient(to right, #fff 0%, #fff 100%);
+}
+.newsletter-area .powtitle::after {
+    background: linear-gradient(to right, #fff 0%, #fff 100%);
+}
+.home3 .blog-gradient a {
+    background: linear-gradient(to right, #fff 0%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* ==========facilities-area ========== */
 .facilities-area {
