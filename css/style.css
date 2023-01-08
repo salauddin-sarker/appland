@@ -124,8 +124,8 @@ img{
     background-repeat: no-repeat;
     padding-bottom: 65px;
 }
-.banner-area.index2{
-        padding-bottom: 219px;
+.banner-area.index2 {
+    padding-bottom: 177px;
 }
 .banner-content .banner-heading {
     color: var(--dark);
@@ -204,13 +204,14 @@ img{
     background-size: contain;
     background-image: url(../images/shape/fshape2.png);
     background-repeat: no-repeat;
+    margin-bottom: 33px;
     position: relative;
     padding: 78px 0 170px 0;
 }
 .features-area .row {
     background-color: var(--white);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 43px 0 135px 0;
+    padding: 47px 0 99px 0;
 }
 .main-heading{
     font-size: 36px;
@@ -642,7 +643,7 @@ img{
     padding: 19px 0 192px 0;
 }
 .banner-right {
-    margin: 212px -205px 0 0px;
+    margin: 234px -224px 0 0px;
 }
 .features-area.home2 {
     background-size: contain;
@@ -654,33 +655,27 @@ img{
 .features-area.home2 .row{
     padding: 43px 116px 95px 116px;
 }
-.features-notifications-area{
+.features-notifications-area {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 12px 0 16px 0;
-
+    padding: 11px 0 18px 0;
 }
 .notif-title{
     padding: 10px 28px 0px 28;
 }
-.notif-title strong{}
-.notif-title strong a{}
 .notif-title button{
     background-color: transparent;
     border: none;
     color: #29afe2;
     font-weight: 500;
 }
-.notif-list{
-    padding: 5px 28px;
+.notif-list {
+    padding: 0px 28px;
 }
-.notif-list{
-    
-}
-.notif-list ol{
+.notif-list ol {
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 .notif-list ol li{
     color: var(--dark);
@@ -693,12 +688,12 @@ img{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
-.email-progress{
-    padding: 29px 0;
+.email-progress {
+    padding: 23px 0;
 }
-.features-numb{
+.features-numb {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 92px;
+    padding: 74px 0px 74px 0px;
 }
 .features-numb small{
     color: #29afe2;
