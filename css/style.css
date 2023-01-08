@@ -119,9 +119,10 @@ img{
 }
 
 /* ==========banner-area ========== */
-.banner-area{
+.banner-area {
     background-image: url("../images/shape/shape01.png");
     background-repeat: no-repeat;
+    padding-bottom: 65px;
 }
 .banner-area.index2{
         padding-bottom: 219px;
@@ -129,6 +130,7 @@ img{
 .banner-content .banner-heading {
     color: var(--dark);
     font-size: 60px;
+    font-weight: 600;
     line-height: 70px;
     padding-bottom: 20px;
 }
@@ -203,12 +205,12 @@ img{
     background-image: url(../images/shape/fshape2.png);
     background-repeat: no-repeat;
     position: relative;
-    padding: 78px 0 172px 0;
+    padding: 78px 0 170px 0;
 }
-.features-area .row{
-    padding: 43px 0 130px 0;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.features-area .row {
     background-color: var(--white);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 43px 0 135px 0;
 }
 .main-heading{
     font-size: 36px;
@@ -219,6 +221,7 @@ img{
 }
 .features-icon {
     left: 0;
+    height: 173px;
     margin-bottom: 38px;
     margin: auto;
     position: relative;
@@ -226,7 +229,7 @@ img{
     width: 130px;
 }
 .section-title {
-    margin-bottom: 90px;
+    margin-bottom: 85px;
     margin-top: 76px;
 }
 .features-content{
@@ -247,8 +250,8 @@ img{
 }
 
 /* ==========functionalities-area ========== */
-.functionalities-area { 
-    margin-top: 100px;
+.functionalities-area {
+    margin-top: 7px;
 }
 .func-left-content {
     left: 0;
@@ -287,7 +290,7 @@ img{
     padding: 0px 245px 50px 0;
 }
 .func-right-image {
-    margin-bottom: 185px;
+    margin-bottom: 67px;
 }
 .lcolor-icon i{
     color: #55c6c8;
@@ -297,15 +300,15 @@ img{
 }
 
 /* ==========awesome-features-area ========== */
-.awesome-features-area{
+.awesome-features-area {
     background-color: #f8f8ff;
-    padding: 100px 0 60px 0;
+    padding: 20px 0 60px 0;
 }
 .awesome-features-area .section-title{
     margin-bottom: 76px;
 }
 .awesome-content{
-    padding-bottom: 75px;
+    padding-bottom: 70px;
 }
 .awesome-icon{
     background-color: #5d58f7;
@@ -328,11 +331,11 @@ img{
     line-height: 34px;
     padding-bottom: 5px;
  }
-.awesome-para{
+ .awesome-para {
     color: var(--mata);
     font-size: 16px;
     line-height: 28px;
-    padding-right: 57px;
+    padding-right: 67px;
 }
 
 .awfeatures-image img{
@@ -342,9 +345,12 @@ img{
 
 /* ==========blog-area ========== */
 .blog-area {
-    padding: 75px 0 50px 0px;
+    padding: 43px 0px 100px 0;
 }
-.blog-area .section-title{}
+.blog-area .section-title {
+    margin-bottom: 55px;
+    font-weight: 500;
+}
 .blog-right-content {
     padding: 15px 64px 0 25px;
 }
@@ -453,8 +459,8 @@ img{
 
 }
 /* ==========brand area ========== */
-.brand-area{
-    padding: 116px 0 142px 0;
+.brand-area {
+    padding: 42px 0 142px 0;
 }
 .brand-area .section-title {
     margin-bottom: 120px;
