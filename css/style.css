@@ -379,14 +379,44 @@ img{
     line-height: 28px;
     padding-bottom: 15px;
 }
-
 /* ==========app area ========== */
 .app-area {
     background-color: var(--theme);
     background-color: #5d58f7;
     color: var(--white);
-    padding-top: 91px;
+    padding-top: 54px;
     position: relative;
+}
+.app-heading {
+    padding-bottom: 49px;
+    position: relative;
+}
+.app-heading::after{
+    bottom: 43px;
+    background-color: var(--white);
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+.app-heading::before {
+    bottom: 43px;
+    background-color: var(--white);
+    content: "";
+    height: 1px;
+    left: 33px;
+    position: absolute;
+    width: 70px;
+}
+.app-btn1.marg-right:hover .app-apple-icon i,.app-btn1.marg-right:hover .app-btn-para,.app-btn1.marg-right:hover .app-btn-store{
+    color: var(--white);
+}
+.app-btn1.marg-left:hover .app-apple-icon i,.app-btn1.marg-left:hover .app-btn-para,.app-btn1.marg-left:hover .app-btn-store{
+    color: var(--white);
+}
+.app-heading {
+    padding-bottom: 48px;
 }
 .app-area::before {
     content: url("../images/shape/appshape.png");
@@ -396,7 +426,7 @@ img{
     z-index: 11;
 }
 .app-left-content {
-    padding-top: 97px;
+    padding-top: 91px;
 }
 .app-heading h4 {
     font-size: 40px;
@@ -406,7 +436,7 @@ img{
 .app-para p {
     font-size: 16px;
     line-height: 28px;
-    padding-bottom: 35px;
+    padding-bottom: 24px;
     padding-right: 84px;
 }
 .app-btn button {
@@ -712,12 +742,16 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    padding-bottom: 43px;
 }
 .home3 .banner-content .banner-heading {
     color: var(--white);
     font-size: 45px;
     line-height: 55px;
     padding-bottom: 20px;
+}
+.home3 .banner-left {
+    margin-top: 50%;
 }
 .home3 .banner-content {
     padding-right: 65px;
@@ -751,7 +785,9 @@ img{
     background-color: transparent;
     color: var(--white);
 }
-
+.powerful-features-area.home3 {
+    padding: 80px 0 0 0;
+}
 .pow-features-head {
     padding-right: 167px;
     padding-top: 95px;
@@ -862,8 +898,9 @@ p.subtitle {
     border-bottom: 1px solid var(--dark);
 }
 /* ==========pricing-area ========== */
-
-
+section.pricing-area {
+    padding-top: 26px;
+}
 .pricing-area .powtitle::before{
     bottom: -10px;
     left: 50%;
@@ -900,10 +937,16 @@ p.subtitle {
     margin-top: 50px;
 }
 .review-tab-wrapper .nav-tabs .nav-link {
-    border: 1px solid var(--mata);
+    border: 1px solid #b6b6c5;
 }
 .review-tab-wrapper .nav-tabs {
     border-bottom: 1px solid transparent;
+    justify-content: center;
+    margin-top: 6px;
+}
+button#description-tab.active,
+button#review-tab.active{
+    background-color: #faf5ff;
 }
 .pricing-content:hover{
     box-shadow: rgba(88, 84, 84, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -975,7 +1018,7 @@ p.subtitle {
     margin-top: -10px;
 }
 section.blog-area.home3.pricing-area {
-    padding: 25px 0 10px 0;
+    padding: 25px 0 60px 0;
 }
 .app-area.home3{
     background-image: url(../images/banner/home3appbg.png);
@@ -989,11 +1032,14 @@ section.blog-area.home3.pricing-area {
     background-color: transparent;
     border: 1px solid var(--white);
 }
-
+.home3.blog-area .section-title {
+    margin-bottom: -15px;
+}
 /* ==========newsletter-area ========== */
-.newsletter-area{
+.newsletter-area {
     background-image: url(../images/banner/Home3newsletterbg.png);
     padding-bottom: 120px;
+    padding-top: 0px !important;
 }
 .newsletter-area .section-title {
     margin-bottom: 71px;
@@ -1062,7 +1108,10 @@ p.facipara {
 }
 /* ==========analytics-area ========== */
 .analytics-area {
-    padding-top: 108px;
+    padding: 108px 0 66px 0;
+}
+.analytics-area .row{
+    padding-bottom: 30px;
 }
 .analytics-content {
     padding-top: 146px;
@@ -1103,7 +1152,7 @@ p.facipara {
     color: #fff;
     left: 50%;
     position: absolute;
-    top: 31%;
+    top: 33%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -1348,11 +1397,9 @@ p.facipara {
     height: 530px;
     width: 100%;
 }
-
-.contact-tracking-area{
-    padding: 127px 0 76px 0;
+.contact-tracking-area {
+    padding: 94px 0 76px 0;
     text-align: center;
-    
 }
 .tracking-content{}
 .map-icon{
