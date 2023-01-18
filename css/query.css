@@ -1,0 +1,100 @@
+
+
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    .header-top .container-fluid {
+        padding: 0px 40px;
+    }
+    .banner-area {
+        background-size: contain;
+    }
+    .banner-content .banner-heading {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 58px;
+    }
+    .banner-area {
+        padding-bottom: 90px;
+    }
+
+
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .header-top .container-fluid {
+        padding: 0px 15px;
+    }
+    .main-nav ul li {
+        padding: 40px 12px;
+    }
+    .banner-content .banner-heading {
+        font-size: 41px;
+        font-weight: 600;
+        line-height: 50px;
+        padding-bottom: 10px;
+    }
+    .banner-area .banner-left {
+        margin-top: 33%;
+    }
+    .banner-content .banner-para {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 0px;
+    }
+    .banner-btn .banner-btn1 a {
+        margin-right: 10px;
+        padding: 15px 36px;
+    }
+    .features-area {
+        padding: 78px 0 0px 0;
+    }
+    .func-right-image.mb-150 {
+        margin-bottom: 59px;
+    }
+    .func-heading h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding: 0 58px 0 0;
+    }
+    .func-para p {
+        font-size: 14px;
+        line-height: 34px;
+        padding: 0px 0px 10px 0;
+    }
+    .func-left-content {
+        top: 10%;
+    }
+    .fun-mid-content {
+        padding-left: 25px;
+    }
+    .awfeatures-image img {
+        margin-left: 0;
+    }
+
+
+
+
+
+ }
+
+
+/* medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { ... }
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { ... }
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { ... }
+
+
+
+
+
+
+

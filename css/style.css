@@ -122,7 +122,8 @@ img{
 .banner-area {
     background-image: url("../images/shape/shape01.png");
     background-repeat: no-repeat;
-    padding-bottom: 65px;
+    padding-bottom: 297px;
+    background-size: contain;
 }
 .banner-area.index2 {
     padding-bottom: 177px;
@@ -671,9 +672,6 @@ img{
 
 .banner-area.home2 {
     padding: 19px 0 192px 0;
-}
-.banner-right {
-    margin: 234px -224px 0 0px;
 }
 .features-area.home2 {
     background-size: contain;
