@@ -17,6 +17,12 @@
     .banner-area {
         padding-bottom: 90px;
     }
+    .app-image img {
+        width: -webkit-fill-available;
+    }
+    .app-left-content {
+        padding-top: 50px;
+    }
 
 
 }
@@ -73,6 +79,44 @@
     .awfeatures-image img {
         margin-left: 0;
     }
+    .features-para {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0 28px;
+    }
+    .features-content {
+        margin-top: 0px;
+    }
+    .features-area {
+        background-image: none;
+    }
+    .app-heading {
+        padding-bottom: 0px;
+    }
+    .app-heading::before {
+        display: none;
+    }
+    .app-heading::after {
+        display: none;
+    }
+    .app-para p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 8px;
+        padding-right: 84px;
+    }
+    .app-btn button {
+        padding: 5px 25px;
+    }
+    .app-btn-store {
+        font-size: 16px;
+    }
+    .app-left-content {
+        padding-top: 30px;
+    }
+    .brand-area {
+        padding: 0px 0 100px 0;
+    }
 
 
 
@@ -82,7 +126,99 @@
 
 
 /* medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { ... }
+@media (max-width: 991.98px) {
+    .get-now-btn a {
+        font-size: 14px;
+        margin-left: 8px;
+        padding: 9px 25px;
+    }
+    .main-nav ul li {
+        padding: 25px 9px;
+    }
+    .banner-area .banner-left {
+        margin-top: 20%;
+    }
+    .banner-content .banner-heading {
+        font-size: 35px;
+        max-width: 345px;
+        padding-bottom: 10px;
+    }
+    .func-left-content {
+        top: 0%;
+    }
+    .func-heading h3 {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0 0px 0 0;
+    }
+    .func-para p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 0px 0px 0;
+    }
+    .fun-mid-content .func-para p {
+        color: var(--para);
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 0px 0px 0;
+    }
+    .awesome-content {
+        padding-bottom: 20px;
+    }
+    .blog-para {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 5px;
+    }
+    .blog-area .blog-image {
+        padding-bottom: 10px;
+        margin-top: 35px;
+    }
+    .app-left-content {
+        padding-top: 0px;
+    }
+    .app-heading h4 {
+        font-size: 24px;
+        padding-bottom: 0px;
+    }
+    .app-para p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-bottom: 8px;
+        padding-right: 0px;
+    }
+    .app-btn button {
+        padding: 5px 12px;
+    }
+    .marg-right {
+        margin-right: 6px;
+    }
+    .footer-top {
+        padding: 15px 0 20px 0;
+    }
+    .footer-text p {
+        color: #b8b8c2;
+        font-size: 16px;
+        line-height: 28px;
+        padding-bottom: 0px;
+        max-width: 350px;
+    }
+    .footer-social-icon li {
+        margin-bottom: 10px;
+    }
+    .footer-content4 img {
+        height: 88px;
+        width: 220px;
+    }
+    .brand-area .section-title {
+        margin-bottom: 55px;
+        margin-top: 50px;
+    }
+    .brand-area {
+        padding: 0px 0 65px 0;
+    }
+
+}
 
 
 

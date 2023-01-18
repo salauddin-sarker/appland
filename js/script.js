@@ -8,7 +8,27 @@ $('.brand').slick({
     pauseOnHover:false,
     speed: 3000,
     slidesToShow: 4,
-    slidesToScroll: 2
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2
+        }
+      }
+    ]
   })
   
   // play-video
