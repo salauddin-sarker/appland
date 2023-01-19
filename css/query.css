@@ -316,15 +316,32 @@
         display: none;
     }
 
+}
 
+
+@media (max-width: 1399.98px) {
+    .index2.banner-area {
+        padding-bottom: 230px;
+        background-size: contain;
+    }
+
+    .index2 .banner-right {
+        margin: 233px 25px 0 0px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .index2 .banner-right {
+        margin: 115px 0px 0 0px;
+    }
+    .index2.banner-area {
+        padding-bottom: 15px;
+        background-size: contain;
+    }
 
 
 
 }
-
-
-
-
 
 
 

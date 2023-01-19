@@ -9,6 +9,7 @@
     .cart-wishlist .add-cart{
         display: none;
 }
+}
 @media (max-width: 992px) {
     .header-top-search {
         width: 100%;

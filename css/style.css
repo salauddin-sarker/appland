@@ -168,8 +168,9 @@ img{
     padding-bottom: 297px;
     background-size: contain;
 }
-.banner-area.index2 {
-    padding-bottom: 177px;
+.index2.banner-area {
+    background-size: cover;
+    padding-bottom: 230px;
 }
 .banner-content .banner-heading {
     color: var(--dark);
@@ -192,6 +193,9 @@ img{
 }
 .banner-right {
     margin: 110px 25px 0 0px;
+}
+.index2 .banner-right {
+    margin: 233px 25px 0 0px;
 }
 .banner-btn button{
     background: transparent;
