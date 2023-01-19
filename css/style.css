@@ -786,14 +786,17 @@ img{
     background-image: url("../images/shape/h3bshape.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    padding-bottom: 43px;
+    background-position: center;
+    padding-bottom: 231px;
 }
 .home3 .banner-content .banner-heading {
     color: var(--white);
     font-size: 45px;
     line-height: 55px;
     padding-bottom: 20px;
+}
+.home3 .banner-right {
+    margin: 201px 0px 0 0px;
 }
 .home3 .banner-left {
     margin-top: 50%;
