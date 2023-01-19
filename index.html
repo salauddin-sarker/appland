@@ -17,7 +17,7 @@
 <body>
     <main class="main-wrapper">
         <!-- ==========header-area========== -->
-        <header>
+        <header class="d-md-block d-none">
             <div class="header-top">
                 <div class="container-fluid">
                     <div class="row justify-content-between">
@@ -47,6 +47,27 @@
                 </div>
             </div>
         </header>
+        <!-- ==========mobile-menu========== -->
+        <section class="mobile-menu d-md-none d-block">
+            <div class="mobile-container">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                  <a href="index4.html" class="active"><img src="./images/logo/Contact-logo.png" alt="Logo Image"></a>
+                  <div id="myLinks">
+                        <li><a href="index4.html">Home</a></li>
+                        <li><a href="#">Product</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#contact.html">Contact</a></li>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars" onclick="changeIcon(this)"></i>
+                  </a>
+                </div>
+                <!-- End smartphone / tablet look -->
+            </div>
+        </section>
         <!-- ==========banner-area========== -->
         <section class="banner-area">
             <div class="container">
@@ -219,7 +240,7 @@
                     </div>
                     <div class="col-xxl-7 col-xl-7 col-lg-12">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="awesome-content">
                                     <div class="awesome-icon">
                                         <i class="fa-solid fa-paint-roller"></i>
@@ -233,7 +254,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="awesome-content">
                                     <div class="awesome-icon">
                                         <i class="fa-solid fa-code"></i>
@@ -247,7 +268,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="awesome-content">
                                     <div class="awesome-icon">
                                         <i class="fa-solid fa-globe"></i>
@@ -261,7 +282,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 col-md-6">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <div class="awesome-content">
                                     <div class="awesome-icon">
                                         <i class="fa-solid fa-infinity"></i>
