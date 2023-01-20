@@ -44,3 +44,6 @@ function myFunction() {
 let changeIcon =function(icon){
   icon.classList.toggle('fa-times')
 }
+function myFunction() {
+  document.getElementById("videobg").style.display = "none";
+}
