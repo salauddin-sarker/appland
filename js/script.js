@@ -32,7 +32,15 @@ $('.brand').slick({
   })
   
  // mobile bar bootstrap
-function myFunction() {
+// function navbtnFunction() {
+//   var x = document.getElementById("myLinks");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
+function navbtnFunction() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
     x.style.display = "none";
@@ -44,6 +52,10 @@ function myFunction() {
 let changeIcon =function(icon){
   icon.classList.toggle('fa-times')
 }
-function myFunction() {
+
+// video overly on click function
+
+
+function videooverlyFunction() {
   document.getElementById("videobg").style.display = "none";
 }

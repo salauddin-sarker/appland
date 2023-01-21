@@ -425,12 +425,86 @@
     .footer-content4 img {
         width: 105px;
     }
+    p.facipara {
+        font-size: 12px;
+        line-height: 28px;
+        padding-right: 0px;
+    }
 
 }
 @media (max-width: 767.98px) {
-    
+    .banner-area.home3 {
+        padding-bottom: 0px;
+    }
+    .home3 .banner-right {
+        margin: 25px 0px 0 0px;
+    }
+    .faci-content {
+        padding: 84px 40px;
+        text-align: center;
+    }
+    .nav-link.pricing2, .nav-link.pricing {
+        margin-top: -25px;
+        padding: 12px 65px;
+    }
+    .pricing-content {
+        padding: 21px 0 44px 0;
+        margin-bottom: 25px;
+        margin-top: 35px;
+    }
+    .newsletter-input input {
+        min-width: 288px;
+        padding: 12px 15px;
+    }
+    .newsletter-input .submit-btn {
+        margin-left: -92px;
+        min-width: 147px !important;
+        padding: 12px 0px;
+    }
+    .newsletter-area .section-title {
+        margin-bottom: 75px;
+        padding-top: 21px;
+    }
+    .newsletter-area {
+        padding-bottom: 45px;
+        padding-top: 0px !important;
+        background-size: contain;
+    }
+    .banner-area .banner-left {
+        margin-top: 10%;
+    }
+
 }
 @media (max-width: 574.98px) {
-    
+    .analytics-para p {
+        font-size: 16px;
+        line-height: 28px;
+        padding-right: 0px;
+    }
+    .analytics-content {
+        padding-left: 0;
+    }
+    .analytics-content {
+        padding-bottom: 30px;
+    }
+    .analytics-area .row {
+        padding-bottom: 0px;
+    }
+    .o-video {
+        height: 198px;
+    }
+    .play-the-btn {
+        padding-bottom: 0px;
+    }
+    .nav-link.pricing2, .nav-link.pricing {
+        padding: 12px 52px;
+    }
+    .powtitle {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .pricing-area .sub-heading {
+        padding: 0 0 10px 0;
+    }
 }
 
