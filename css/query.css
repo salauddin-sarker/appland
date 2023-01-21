@@ -383,6 +383,9 @@
         max-width: 560px;
         margin: auto;
     }
+    .mar98 {
+        margin-left: 0px;
+    }
 }
 @media (max-width: 991.98px) {
     .home3 .banner-content .banner-heading {
@@ -430,6 +433,30 @@
         line-height: 28px;
         padding-right: 0px;
     }
+    .blog-banner-area {
+        height: 400px;
+        background-size: cover;
+    }
+    .widgets-tag {
+        margin-right: 0px;
+    }
+    .blog-grid-area {
+        padding: 50px 0 0 0;
+    }
+    .Pagination-area {
+        padding: 0 0 50px 0;
+    }
+    .contact-area {
+        height: 400px;
+    }
+    .banner-title h4 {
+        font-size: 35px;
+    }
+    .banner-title p {
+        font-size: 14px;
+    }
+
+
 
 }
 @media (max-width: 767.98px) {
@@ -473,6 +500,38 @@
     .banner-area .banner-left {
         margin-top: 10%;
     }
+    .banner-title h4 {
+        font-size: 35px;
+    }
+    .banner-title p {
+        font-size: 15px;
+    }
+    .blog-banner-area {
+        height: 250px;
+    }
+    .para-location {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .con-submit-btn button {
+        font-size: 14px;
+        height: 60px;
+        letter-spacing: 4px;
+    }
+    .contact-message-area .cheked-valid::before {
+        top: 15px;
+        right: 6px;
+    }
+    .contact-message-area .form-check {
+        border: 1px solid #d3d3d4;
+        padding: 4px 0px 20px 30px;
+    }
+    .footer-top {
+        padding: 70px 0 20px 0;
+    }
+    .contact-area {
+        height: 300px;
+    }
 
 }
 @media (max-width: 574.98px) {
@@ -505,6 +564,43 @@
     }
     .pricing-area .sub-heading {
         padding: 0 0 10px 0;
+    }
+    .banner-title p {
+        font-size: 14px;
+    }
+    .blog-grid-area {
+        padding: 40px 0 0 0;
+    }
+    .sidebar-title h5 {
+        padding-bottom: 20px;
+    }
+    .tweets-area {
+        padding-bottom: 20px;
+    }
+    .tweet-text p {
+        margin-top: 0px;
+    }
+    .search-area {
+        padding-bottom: 20px;
+    }
+    .categories-area {
+        padding-bottom: 20px;
+    }
+    .tags-area {
+        padding-top: 25px;
+    }
+    .Pagination-area {
+        padding: 0 0 50px 0;
+    }
+    .red-more-btn {
+        padding-bottom: 20px;
+    }
+    .pagination {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .contact-message-area .form-check {
+        margin-bottom: 30px;
     }
 }
 

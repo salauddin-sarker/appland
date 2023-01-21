@@ -131,7 +131,8 @@ img{
     overflow: hidden;
     background-color: #000000;
     position: relative;
-  }
+    z-index: 9999;
+}
   
   .topnav #myLinks {
     display: none;
